@@ -1,0 +1,101 @@
+body {
+    margin: auto;
+    width: auto;
+}
+/* background color of navBar */
+.divNavbar {
+    background-color: chartreuse;
+}
+/** remove the bullet of ul element and  make those element on the left margin in 30%**/
+.ulnavbar {
+    list-style-type: none;
+    margin-left: 30%;
+}
+
+/*display li element on the same line*/
+.ulnavbar li {
+    display: inline;
+}
+
+/*set some property fot a elemet */
+.ulnavbar a {
+    text-decoration: none;
+    padding: 5px 20px 20px 20px;
+    text-transform: uppercase;
+    color: black;
+    font-size: larger;
+}
+
+/*set property for a element on hover*/
+.ulnavbar a:hover {
+    color: inherit !important;
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+    font-weight: bolder;
+}
+
+/*property to give my profile image  sizes*/
+.glodyImage {
+    width: 60%;
+    height: 100%;
+}
+/*property to give background image the size to fit the div of my personal identity on html*/
+.Myidentity {
+    background-image: url("./images/image1.jpg");
+    background-color: blueviolet;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*set a element to have color, border and few other properties on hover */
+.ulnavbar .active,
+a:hover {
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+    font-weight: bolder;
+    background-color: white;
+}
+
+
+.identutyParagraph {
+    font-weight: bold;
+    color: black;
+}
+
+/*set some property of the elemnts inside the class call aboutmyself*/
+.aboutmyself {
+    border: solid 5px gray;
+    background-color: blueviolet;
+    box-shadow: 3px;
+
+}
+
+/*set some property of the elemnts inside the class call EducationSection*/
+.EducationSection {
+    text-align: center;
+    background-color: chartreuse;
+    padding: 4px;
+}
+
+
+
+/*set the class call KeepNeatLine having certain specify property*/
+.KeepNeatLine {
+    margin-left: 21%;
+}
+
+/*set the class call KeepNeatLine having certain specify property*/
+.KeepUlNeatLine {
+    margin-left: 20%;
+
+}
+
+/*set the class call EraseBuletOfUl having certain specify property*/
+.EraseBuletOfUl {
+    list-style: none;
+}
